@@ -69,7 +69,7 @@ cierre.forEach(function (cierre) {
         //Agregar un tiempo de espera
         setTimeout(function () {
             location.href = "/boletines";
-        }, 600);
+        }, 1000);
 
         return false;
     })
